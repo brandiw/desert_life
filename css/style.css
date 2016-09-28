@@ -1,0 +1,16 @@
+.container{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+h1{
+  color: #d8b511;
+  font-family: "futura";
+}
+
+#game{
+  width: 840px;
+  margin: 0 auto
+}
+
