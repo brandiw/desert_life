@@ -35,7 +35,6 @@ var PhaserGame = function () {
             this.load.image('platform_small_straight', 'assets/DesertPack/PNG/desert_pack_13.png');
             this.load.image('platform_large_straight', 'assets/DesertPack/PNG/desert_pack_05.png');
 
-
             //Load scenery
             this.load.image('cactus_tall', 'assets/DesertPack/PNG/desert_pack_59.png');
             this.load.image('cactus_small', 'assets/DesertPack/PNG/desert_pack_66.png');
