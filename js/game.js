@@ -77,9 +77,9 @@ var PhaserGame = function () {
             this.player.scale.setTo(1.5);
             this.facing = "right";
 
-            this.player.animations.add('left', [41, 42, 44], 8, true);
+            this.player.animations.add(',', [41, 42, 44], 8, true);
             this.player.animations.add('right', [32, 33, 34, 36], 8, true);
-            this.player.animations.add('jumpLeft', [42], 8, true);
+            this.player.animations.add('jumpLeft', [42, 44], 8, true);
             this.player.animations.add('jumpRight', [34], 8, true);
 
             this.camera.follow(this.player);
@@ -221,8 +221,8 @@ var PhaserGame = function () {
             this.createPlatform(2745, 200, 'platform_small_straight');
             this.createPlatform(2600, 150, 'platform_small_straight');
             this.createPlatform(2445, 100, 'platform_small_straight');
-            this.createPlatform(2295, 75, 'platform_small_straight');
-            this.createPlatform(2095, 50, 'platform_small_straight');
+            this.createPlatform(2295, 55, 'platform_small_straight');
+            this.createPlatform(2095, 30, 'platform_small_straight');
         },
         createPlatform: function(x, y, type){
             var platform = this.platforms.create(x, y, type);
